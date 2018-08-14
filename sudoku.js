@@ -1,6 +1,6 @@
 const SIZE = 9;
 const EMPTY = 0;
-const DIFFICULTY = 0.5;
+const DIFFICULTY = 0.75;
 
 let grid;
 generate();

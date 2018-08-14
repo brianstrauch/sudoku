@@ -1,6 +1,5 @@
 const SIZE = 9;
 const EMPTY = 0;
-const DIFFICULTY = 0.75;
 
 let grid;
 generate();
@@ -28,7 +27,7 @@ function generate() {
 	}
 	order = shuffle(order);
 
-	for (let i = 0; i < order.length * DIFFICULTY; i++) {
+	for (let i = 0; i < order.length; i++) {
 		let [row, col] = order[i];
 
 		let num = grid[row][col];
